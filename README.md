@@ -36,15 +36,6 @@ npm install
 npm run dev
 
 
-Open → http://localhost:5173
-
-🔗 API Routes
-Method	Route	Description
-GET	/api/products	Fetch products
-POST	/api/cart	Add to cart
-DELETE	/api/cart/:id	Remove from cart
-GET	/api/cart	Get cart
-POST	/api/checkout	Mock checkout
 ✨ Features
 
 Product grid with “Add to Cart”
