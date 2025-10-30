@@ -57,4 +57,7 @@ MongoDB data persistence
 
 📧 akashvishwakarma1024@gmail.com
 
-🔗 GitHub
+Screenshots
+
+![imag_alt](https://github.com/akashondev/E-com/blob/main/Screenshot%202025-10-30%20173845.png?raw=true)
+
