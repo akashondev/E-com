@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+🛒 E-Commerce Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple full-stack shopping cart project built with React, Node.js, and MongoDB.
+Implements basic e-commerce flow: add/remove items, cart total, and mock checkout.
 
-## Available Scripts
+⚙️ Tech Stack
 
-In the project directory, you can run:
+Frontend: React + Tailwind CSS
+Backend: Node.js + Express
+Database: MongoDB Atlas
 
-### `npm start`
+📁 Project Structure
+ecommerce-cart/
+ ├── backend/      → Node + Express API
+ └── frontend/     → React + Tailwind UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 Setup
+Backend
+cd backend
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+.env
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/
+PORT=5000
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run dev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend
+cd frontend
+npm install
+npm run dev
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open → http://localhost:5173
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔗 API Routes
+Method	Route	Description
+GET	/api/products	Fetch products
+POST	/api/cart	Add to cart
+DELETE	/api/cart/:id	Remove from cart
+GET	/api/cart	Get cart
+POST	/api/checkout	Mock checkout
+✨ Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Product grid with “Add to Cart”
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Cart with update/remove
 
-## Learn More
+Checkout with mock receipt
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Responsive UI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MongoDB data persistence
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📧 akashvishwakarma1024@gmail.com
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔗 GitHub
