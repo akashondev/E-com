@@ -3,6 +3,12 @@
 A simple full-stack shopping cart project built with React, Node.js, and MongoDB.
 Implements basic e-commerce flow: add/remove items, cart total, and mock checkout.
 
+This mini project is a basic e-commerce cart system built using React, Node.js, and MongoDB.
+Users can browse products, add or remove items from the cart, and proceed to a mock checkout.
+It demonstrates full-stack integration between frontend, backend, and database.
+The app focuses on simplicity, clean UI, and practical e-commerce workflow.
+Ideal for showcasing full-stack development skills in a small project.
+
 ⚙️ Tech Stack
 
 Frontend: React + Tailwind CSS
